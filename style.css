@@ -1,6 +1,7 @@
-/* *{
-    background-color: blueviolet;
-} */
+*{
+    margin: 0;
+    padding: 0;
+} 
 h1{
     color:rgb(58, 49, 49)
 }
@@ -19,5 +20,33 @@ img{
 }
 *{
     background-color: azure;
+}
+.image-row {
+    display: flex;
+    gap: 20px;           /* space between images */
+}
+
+.image-row img {
+    width: 200px;        /* adjust size */
+    height: auto;
+}
+#sample{
+    background-color: cyan;
+    border:5px black solid;
+}
+.First{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding: 30px;
+}
+/* my flex properties */
+.container{
+    color: coral;
+}
+.childContainer{
+    display:flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    color: cadetblue;
 }
     
