@@ -70,9 +70,13 @@ img{
     border:1px red solid;
     display: flex;
 }
-img{
+/* img{
 width: 50px;
-border-radius: 100%;
+border-radius: 100%; */
 
+
+/* boot strap */
+.body{
+    background-color:gold;
 }
   
